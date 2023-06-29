@@ -1,0 +1,42 @@
+:root{
+    --primary-color:#FFBBC3;
+    --second-color:#D96685;
+}
+.button-primary{
+    background-color: var(--primary-color);
+}
+
+.button-primary:hover{
+    background-color: var(--second-color);
+}
+/* Links */
+.rd-navbar-contacts-2 a:hover{
+    color: var(--second-color);
+}
+.list-share-2 .icon:hover{
+    background-color: var(--second-color);
+}
+
+/* nav */
+.brand img{
+    height: 6rem !important;
+    border-radius: 50%;
+}
+.rd-navbar-static .rd-nav-link::before{
+    background-color: var(--second-color);
+}
+/* Galeria */
+.project-hamburger > span::after {
+    background: var(--second-color);
+}
+.rd-navbar-project-content::-webkit-scrollbar-thumb {
+    background-color: var(--second-color); /* Color de la barra de desplazamiento */
+}
+
+/* Header */
+.swiper-slider-2 .swiper-button-prev:hover .swiper-button-arrow::after, .swiper-slider-2 .swiper-button-next:hover .swiper-button-arrow::after{
+    background-color: var(--primary-color);
+}
+.swiper-pagination-bullet::before{
+    background-color: var(--primary-color);
+}
