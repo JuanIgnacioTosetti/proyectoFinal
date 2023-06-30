@@ -3,6 +3,7 @@
     --second-color:#D96685;
 }
 
+
 .button-primary{
     background-color: var(--primary-color);
 }
@@ -30,9 +31,10 @@
 .project-hamburger > span::after {
     background: var(--second-color);
 }
-.rd-navbar-project-content::-webkit-scrollbar-thumb {
+.rd-navbar-project-content::-webkit-scrollbar-thumb,.rd-navbar-modern.rd-navbar-fixed .project-hamburger > span {
     background-color: var(--second-color); /* Color de la barra de desplazamiento */
 }
+
 
 /* Header */
 .swiper-slider-2 .swiper-button-prev:hover .swiper-button-arrow::after, .swiper-slider-2 .swiper-button-next:hover .swiper-button-arrow::after{
