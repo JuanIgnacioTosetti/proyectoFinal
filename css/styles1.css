@@ -2,14 +2,7 @@
     --primary-color:#FFBBC3;
     --second-color:#D96685;
 }
-@font-face{
-    font-family: Asfalto;
-    src: url(../fonts/h1.ttf);
-}
 
-h1{
-    font-family: Asfalto;
-}
 .button-primary{
     background-color: var(--primary-color);
 }
