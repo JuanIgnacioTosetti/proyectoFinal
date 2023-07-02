@@ -3,16 +3,18 @@
     --second-color:#D96685;
 }
 
-
-.button-primary{
+/* botones */
+.ui-to-top,.button-primary, .button-secondary-2, .button-secondary:hover, .product-badge-sale::before,.footer-social-list-2 .icon::after{
     background-color: var(--primary-color);
 }
 
-.button-primary:hover{
+.ui-to-top:focus, .ui-to-top:hover,.button-primary:hover, .button-secondary-2:hover,.button-secondary, .button-secondary:focus, .product-badge-new::before{
     background-color: var(--second-color);
 }
+
+
 /* Links */
-.rd-navbar-contacts-2 a:hover{
+.rd-navbar-contacts-2 a:hover,.footer-modern-contacts a:hover,.footer-modern-list a:hover{
     color: var(--second-color);
 }
 .list-share-2 .icon:hover{
@@ -28,18 +30,45 @@
     background-color: var(--second-color);
 }
 /* Galeria */
-.project-hamburger > span::after {
+.project-hamburger > span::after,.list-category-item a::before {
     background: var(--second-color);
 }
 .rd-navbar-project-content::-webkit-scrollbar-thumb,.rd-navbar-modern.rd-navbar-fixed .project-hamburger > span {
     background-color: var(--second-color); /* Color de la barra de desplazamiento */
 }
-
+.thumbnail-creative::before{
+    background-color: rgb(217, 102, 133, .44);
+}
 
 /* Header */
 .swiper-slider-2 .swiper-button-prev:hover .swiper-button-arrow::after, .swiper-slider-2 .swiper-button-next:hover .swiper-button-arrow::after{
     background-color: var(--primary-color);
 }
-.swiper-pagination-bullet::before{
+.swiper-pagination-bullet::before,.select2-results .select2-highlighted{
     background-color: var(--primary-color);
+}
+
+.cta-modern-decor{
+    background-color: var(--primary-color);
+}
+
+/* producto desrtacados */
+.product-price,h1 a:focus, h1 a:hover, h2 a:focus, h2 a:hover, h3 a:focus, h3 a:hover, h4 a:focus, h4 a:hover, h5 a:focus, h5 a:hover, h6 a:focus, h6 a:hover, [class^='heading-'] a:focus, [class^='heading-'] a:hover{
+    color: var(--second-color);
+}
+
+/* Seccion de servicios */
+.box-icon-megan-icon{
+    color: var(--second-color);
+}
+.desktop .box-icon-megan:hover .box-icon-megan-icon,.desktop .box-icon-megan:hover .box-icon-megan-header::before{
+    color: var(--primary-color) !important;
+    
+}
+.desktop .box-icon-megan:hover .box-icon-megan-header::before, .desktop .box-icon-megan:hover .box-icon-megan-header::after{
+    border-color: var(--primary-color);
+}
+
+.select2-drop-active{
+    border: 1px solid var(--second-color);
 }
