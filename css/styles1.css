@@ -24,7 +24,10 @@
 /* nav */
 .brand img{
     height: 6rem !important;
-    border-radius: 50%;
+}
+
+.rd-navbar-modern.rd-navbar-static .rd-navbar-panel::before{
+    background-color: var(--primary-color);
 }
 .rd-navbar-static .rd-nav-link::before{
     background-color: var(--second-color);
