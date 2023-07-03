@@ -32,6 +32,10 @@
 .rd-navbar-static .rd-nav-link::before{
     background-color: var(--second-color);
 }
+.rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, .rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, .rd-navbar-fixed .rd-nav-item.active .rd-nav-link, .rd-navbar-fixed .rd-nav-item.opened .rd-nav-link{
+    background-color: var(--second-color);
+}
+
 /* Galeria */
 .project-hamburger > span::after,.list-category-item a::before {
     background: var(--second-color);
@@ -74,4 +78,25 @@
 
 .select2-drop-active{
     border: 1px solid var(--second-color);
+}
+.dots-style-2 .owl-dot.active::before{
+    background-color: var(--second-color);
+}
+
+.quote-tara-status,.footer-modern.context-dark p.rights a:hover, .footer-modern.bg-gray-dark p.rights a:hover, .footer-modern.bg-primary p.rights a:hover{
+    color: var(--second-color);
+}
+
+/* PAGINA ABOUT */
+
+.breadcrumbs-custom-path a:hover{
+    color: var(--second-color);
+}
+
+.team-modern-social-list .icon:hover{
+    background-color: var(--primary-color);
+}
+
+.contacts-social-list a:hover, .aside-contacts span.icon{
+    color: var(--second-color);
 }
